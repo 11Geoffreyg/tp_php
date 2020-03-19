@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Recherche{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        {% block css %} {{ encore_entry_link_tags('app') }} {% endblock %}
+    </head>
+    <body>
+        {% block js %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </body>
+</html>
